@@ -10,7 +10,10 @@ export const Headers = styled.header`
     justify-content: space-between;
     align-items: center;
     z-index: 3;
-    cursor: pointer;
+
+    a {
+        cursor: pointer;
+    }
 
     @media (max-width: 750px){
         padding: 10px 50px;
