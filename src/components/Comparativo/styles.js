@@ -45,21 +45,21 @@ export const Comparacao = styled.div`
         padding: 10px 30px;
         align-self: center;
 
-            margin-top: 40px;
+        margin-top: 40px;
 
-            border-radius: 4px;
-            background-color: #333;
-            color: #fff;
+        border-radius: 4px;
+        background-color: #333;
+        color: #fff;
 
-            &::after{
-                content: "Ler mais+";
-            }
-
-            &:hover {
-                transition: background 0.2s ease-in-out;
-                background: ${darken(0.1, '#1eee70')};
-            }
+        &::after{
+            content: "Ler mais+";
         }
+
+        &:hover {
+            transition: background 0.2s ease-in-out;
+            background: ${darken(0.1, '#1eee70')};
+        }
+    }
 
 `;
 

@@ -231,6 +231,7 @@ export const Conteudo = styled.div`
 
         a {
             display: flex;
+            text-align: center;
 
             padding: 10px 30px;
             align-self: flex-start;
