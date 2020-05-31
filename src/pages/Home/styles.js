@@ -91,7 +91,7 @@ export const Video = styled.div`
 
     padding: 50px 0px;
     background: #222 url(${bg2}) left no-repeat;
-    background-size: contain;
+    background-size: 90vh;
     color: #10e660;
 
     @media (max-width: 500px) {
@@ -127,7 +127,7 @@ export const VideoGrid = styled.div`
         justify-items: center;
         width: 21.5rem;
         height: 12.5rem;
-        margin: 0 10px 20px 10px;
+        margin: 0 10px 50px 10px;
 
         &:hover {
             transition: background 0.2s ease-in-out;
