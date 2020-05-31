@@ -120,14 +120,19 @@ export const VideoGrid = styled.div`
         flex-direction: column;
     }
 
-    section {
+    a {
         display: grid;
         align-items: center;
         justify-content: center;
         justify-items: center;
-        width: 22.188rem;
-        height: 13.75rem;
+        width: 21.5rem;
+        height: 12.5rem;
         margin: 0 10px 20px 10px;
+
+        &:hover {
+            transition: background 0.2s ease-in-out;
+            background: #fff;
+        }
 
         svg {
             grid-column: 1;
