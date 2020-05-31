@@ -1,9 +1,9 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-    display: grid;
+    display: flex;
     justify-content: center;
-    padding: 130px 0;
+    padding: 130px 50px;
     max-width: 100vw;
 
     section {
