@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
     display: grid;
-    width: 100vw;
+    max-width: 100vw;
     justify-content: center;
     align-items: center;
     padding: 130px 0;

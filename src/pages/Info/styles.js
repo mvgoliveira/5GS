@@ -4,6 +4,7 @@ export const Container = styled.div`
     display: grid;
     justify-content: center;
     padding: 130px 0;
+    max-width: 100vw;
 
     section {
         display: flex;
