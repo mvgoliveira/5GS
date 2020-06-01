@@ -68,7 +68,7 @@ export const Conteudo = styled.div`
     display: flex;
     z-index: -1;
     position: fixed;
-    transition: top 0.9s cubic-bezier(1, 0, 0, 1);
+    transition: top 0.9s cubic-bezier(0.3, 0, 0, 1);
 
 
     top: ${props => (props.open ? "0%" : "-100%")};

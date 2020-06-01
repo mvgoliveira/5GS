@@ -39,7 +39,7 @@ export default function Header() {
 
                 </Menu>
 
-                <Conteudo>
+                <Conteudo open={open}>
                     <ul>
                         <li><Link to="/" onClick={() => abrir()}>Inicio</Link></li>
                         <li><Link to="/informacoes" onClick={() => abrir()}>História</Link></li>
