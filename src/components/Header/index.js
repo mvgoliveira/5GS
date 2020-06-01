@@ -11,8 +11,6 @@ export default function Header() {
 
     function abrir() {
         const change = open ? false : true;
-        console.log(change);
-
         setOpen(change);
     }
 
