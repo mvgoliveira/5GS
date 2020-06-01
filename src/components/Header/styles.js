@@ -6,7 +6,7 @@ export const Headers = styled.header`
     flex-direction: column;
 
     width: 100vw;
-    padding: 7px 100px;
+    padding: 0px 100px;
 
     background: #000;
     color: #fff;
@@ -26,16 +26,40 @@ export const Menu = styled.div`
 
     justify-content: space-between;
     align-items: center;
+`;
 
-    .line {
-        width: 33px;
-        height: 3px;
-        background: white;
-        margin: 5px;
-    }
-
-    .hamburger {
+export const NavIcon = styled.div`
+    .ham {
         cursor: pointer;
+        -webkit-tap-highlight-color: transparent;
+        transition: transform 400ms;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+
+        transform: ${props => (props.open ? "rotate(45deg)" : "0")};
+
+        .line {
+            fill:none;
+            transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
+            stroke:#fff;
+            stroke-width: 6;
+            stroke-linecap:round;
+        }
+
+        .top {
+            stroke-dasharray: 40 139;
+            stroke-dashoffset: ${props => (props.open ? "-98px" : "0")};
+        }
+
+        .bottom {
+            stroke-dasharray: 40 180;
+            stroke-dashoffset: ${props => (props.open ? "-138px" : "0")};
+        }
+    }
+    .hamRotate.active {
+        transform: rotate(45deg);
     }
 `;
 
