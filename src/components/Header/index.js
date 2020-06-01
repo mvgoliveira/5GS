@@ -1,16 +1,43 @@
-import React from 'react';
-import { IoIosMenu } from 'react-icons/io';
+import React, { useState } from 'react';
 
-import { Headers } from './styles';
+import { Headers, Menu, Conteudo } from './styles';
 
 import logo from '../../assets/imagens/logo.png';
 
 export default function Header() {
 
+    const [open, setOpen] = useState (false);
+
+    function abrir() {
+        const change = open ? false : true;
+        console.log(change);
+
+        setOpen(change);
+    }
+
     return (
-        <Headers>
-            <a href="/"><img src={logo} alt="5GS-Logotipo" height={35}/></a>
-            <IoIosMenu size={35}/>
-        </Headers>
+        <>
+            <Headers>
+                <Menu onClick={() => abrir()}>
+
+                    <a href="/"><img src={logo} alt="5GS-Logotipo" height={35}/></a>
+
+                    <div class="hamburger">
+                        <div class="line"></div>
+                        <div class="line"></div>
+                        <div class="line"></div>
+                    </div>
+                </Menu>
+
+                <Conteudo open={open}>
+                    <ul>
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#">História</a></li>
+                        <li><a href="#">Comparação</a></li>
+                        <li><a href="#">Doação</a></li>
+                    </ul>
+                </Conteudo>
+            </Headers>
+        </>
     );
 }
