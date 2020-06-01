@@ -33,11 +33,22 @@ export const Card = styled.div`
     align-items: center;
     background: #1eee70;
 
+    @media(max-width: 575px) {
+        display: grid;
+        justify-content: center;
+        justify-items: center;
+    }
+
     div {
-        min-width: 9.375rem;
+        width: 9.375rem;
         display: flex;
         align-items: center;
         justify-content: center;
+        grid-row: 1;
+
+        @media(max-width: 575px) {
+            padding: 30px 0;
+        }
     }
 
     section {
@@ -49,6 +60,11 @@ export const Card = styled.div`
         grid-gap: 10px;
         background: #0DC954;
         box-shadow: inset 8px 0px 20px -20px black;
+        grid-row: 2;
+
+        @media(max-width: 575px) {
+            width: 400px;
+        }
 
         h3 {
             font-size: 2rem;

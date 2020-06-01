@@ -22,6 +22,10 @@ export const Footer = styled.footer`
     @media (max-width: 825px) {
         display: grid;
         grid-template-columns: 1fr;
+        padding: 10px 10px 10px 10px;
+        grid-gap: 30px;
+        align-items: center;
+        justify-content: center;
     }
 
 `;
