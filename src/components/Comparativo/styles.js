@@ -76,11 +76,8 @@ export const Requisitos = styled.div`
     min-height: 18.75rem;
 
     @media (max-width: 867px) {
-        grid-template-columns: 1fr 1fr;
-    }
-
-    @media (max-width: 500px) {
-        grid-template-columns: 1fr;
+        overflow: auto;
+        width: 90vw;
     }
 
     div {

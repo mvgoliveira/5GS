@@ -43,8 +43,12 @@ export const Hero = styled.div`
         font-weight: 300;
         font-size: 4.5rem;
         text-align: start;
-        width: 26.875rem;
+        width: 28rem;
         background: #222;
+        padding-left: 10px;
+
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
 
         @media (max-width: 650px) {
             text-align: center;
@@ -63,21 +67,26 @@ export const Hero = styled.div`
         font-size: 1.25rem;
         letter-spacing: 0.094rem;
         text-align: start;
-        width: 26.875rem;
+        width: 28rem;
+        height: 60px;
+        padding-left: 10px;
         background: #222;
+
+        border-bottom-right-radius: 15px;
+        border-bottom-left-radius: 15px;
 
         @media (max-width: 650px) {
             text-align: center;
             width: 80vw;
             font-size: 0.8rem;
-            height: 20px;
+            height: 35px;
         }
 
         @media (max-width: 500px) {
             text-align: center;
             width: 80vw;
             font-size: 0.8rem;
-            height: 30px;
+            height: 40px;
         }
     }
 `;
@@ -94,10 +103,6 @@ export const Video = styled.div`
     background-size: 90vh;
     color: #10e660;
 
-    @media (max-width: 500px) {
-        background: #222;
-    }
-
     h2 {
         text-align: center;
         font-size: 3rem;
@@ -106,18 +111,22 @@ export const Video = styled.div`
         letter-spacing: 3px;
         margin-bottom: 30px;
         background: #222;
-        padding: 10px 20px;
+        border-radius: 15px;
+        padding: 10px 40px;
     }
 `;
 
 export const VideoGrid = styled.div`
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     justify-content: center;
     align-items: center;
     padding-top: 30px;
 
     @media (max-width: 1040px) {
-        flex-direction: column;
+        overflow: auto;
+        justify-content: start;
+        width: 90vw;
     }
 
     a {
