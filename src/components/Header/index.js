@@ -18,11 +18,11 @@ export default function Header() {
     return (
         <>
             <Headers>
-                <Menu onClick={() => abrir()}>
+                <Menu>
 
                     <a href="/"><img src={logo} alt="5GS-Logotipo" height={35}/></a>
 
-                    <div class="hamburger">
+                    <div class="hamburger" onClick={() => abrir()}>
                         <div class="line"></div>
                         <div class="line"></div>
                         <div class="line"></div>
