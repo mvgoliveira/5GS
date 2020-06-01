@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 import { Headers, Menu, Conteudo } from './styles';
 
@@ -31,10 +32,10 @@ export default function Header() {
 
                 <Conteudo open={open}>
                     <ul>
-                        <li><a href="#">Inicio</a></li>
-                        <li><a href="#">História</a></li>
-                        <li><a href="#">Comparação</a></li>
-                        <li><a href="#">Doação</a></li>
+                        <li><Link to="/" onClick={() => abrir()}>Inicio</Link></li>
+                        <li><Link to="/informacoes" onClick={() => abrir()}>História</Link></li>
+                        <li><Link to="/comparacao" onClick={() => abrir()}>Comparação</Link></li>
+                        <li><Link to="/" onClick={() => abrir()}>Doação</Link></li>
                     </ul>
                 </Conteudo>
             </Headers>

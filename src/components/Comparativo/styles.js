@@ -43,7 +43,9 @@ export const Comparacao = styled.div`
         display: flex;
 
         padding: 10px 30px;
-        align-self: center;
+
+        justify-content: center;
+        align-items: center;
 
         margin-top: 40px;
 
@@ -53,6 +55,7 @@ export const Comparacao = styled.div`
 
         &::after{
             content: "Ler mais+";
+            text-align: center;
         }
 
         &:hover {
