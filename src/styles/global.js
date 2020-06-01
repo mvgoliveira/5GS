@@ -21,7 +21,7 @@ export default createGlobalStyle `
   body, input, button {
       color: #000;
       font-size: 14px;
-      font-family: Roboto, sans-serif;
+      font-family: 'Roboto', sans-serif;
   }
 
   button {

@@ -117,16 +117,24 @@ export const Video = styled.div`
 `;
 
 export const VideoGrid = styled.div`
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    justify-content: center;
-    align-items: center;
+
     padding-top: 30px;
+
+    div {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+    }
 
     @media (max-width: 1040px) {
         overflow: auto;
-        justify-content: start;
         width: 90vw;
+
+        div {
+            display: flex;
+            justify-content: flex-start;
+        }
     }
 
     a {
@@ -231,7 +239,6 @@ export const Conteudo = styled.div`
         }
 
         p{
-            text-align: center;
             font-size: 1.2rem;
             line-height: 1.875rem;
             text-align: justify;

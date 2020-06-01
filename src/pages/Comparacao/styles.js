@@ -33,11 +33,6 @@ export const Card = styled.div`
     align-items: center;
     background: #1eee70;
 
-    @media(max-width: 575px) {
-        display: grid;
-        justify-content: center;
-        justify-items: center;
-    }
 
     div {
         width: 9.375rem;
@@ -45,10 +40,6 @@ export const Card = styled.div`
         align-items: center;
         justify-content: center;
         grid-row: 1;
-
-        @media(max-width: 575px) {
-            padding: 30px 0;
-        }
     }
 
     section {
@@ -63,7 +54,7 @@ export const Card = styled.div`
         grid-row: 2;
 
         @media(max-width: 575px) {
-            width: 400px;
+
         }
 
         h3 {
@@ -90,6 +81,48 @@ export const Card = styled.div`
                 &:hover {
                     text-decoration: underline #000;
                 }
+            }
+        }
+    }
+
+    @media(max-width: 575px) {
+        display: grid;
+        justify-content: center;
+        justify-items: center;
+        word-wrap: break-word;
+
+        div {
+            height: 5rem;
+        }
+
+        section {
+
+
+            h3 {
+                text-align: center;
+            }
+
+            p {
+                max-width: 30rem;
+                word-wrap: break-word;
+            }
+
+            span {
+                max-width: 20rem;
+                word-wrap: break-word;
+            }
+        }
+
+    @media(max-width: 398px) {
+
+        section {
+
+            p {
+                max-width: 16rem;
+            }
+
+            span {
+                max-width: 16rem;
             }
         }
     }

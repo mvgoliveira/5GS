@@ -26,9 +26,15 @@ export const Container = styled.div`
 
     p {
         margin-bottom: 40px;
-        font-family: roboto;
+        font-family: 'Roboto', sans-serif;
         font-size: 1.2rem;
         line-height: 1.875rem;
+        text-align: justify;
+        padding-bottom: 25px;
+
+        @media(max-width: 600px){
+            font-size: 1rem;
+        }
     }
 
     ul {
