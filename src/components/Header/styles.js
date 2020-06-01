@@ -17,7 +17,7 @@ export const Headers = styled.header`
     }
 
     @media (max-width: 750px){
-        padding: 10px 50px;
+        padding: 0px 50px;
     }
 `;
 
