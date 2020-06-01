@@ -53,10 +53,6 @@ export const Card = styled.div`
         box-shadow: inset 8px 0px 20px -20px black;
         grid-row: 2;
 
-        @media(max-width: 575px) {
-
-        }
-
         h3 {
             font-size: 2rem;
             font-weight: 100;
@@ -97,7 +93,6 @@ export const Card = styled.div`
 
         section {
 
-
             h3 {
                 text-align: center;
             }
@@ -112,6 +107,8 @@ export const Card = styled.div`
                 word-wrap: break-word;
             }
         }
+
+    }
 
     @media(max-width: 398px) {
 
