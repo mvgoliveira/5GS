@@ -95,7 +95,7 @@ export const Video = styled.div`
     display: flex;
     flex-direction: column;
     width: 100vw;
-    min-height: 90vh;
+    min-height: 95vh;
     align-items: center;
 
     padding: 50px 0px;

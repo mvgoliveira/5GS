@@ -77,7 +77,7 @@ export const Requisitos = styled.div`
 
     @media (max-width: 867px) {
         overflow: auto;
-        width: 90vw;
+        width: 95vw;
     }
 
     div {
