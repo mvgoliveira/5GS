@@ -53,7 +53,7 @@ export const Comparacao = styled.div`
         background-color: #333;
         color: #fff;
 
-        max-height: 100%;
+        max-height: 38px;
 
         &::after{
             content: "Ler mais+";
