@@ -35,7 +35,7 @@ export const Comparacao = styled.div`
         margin-bottom: 40px;
 
         @media(max-width: 689px){
-            font-size: 2rem;
+            font-size: 1rem;
         }
     }
 
