@@ -31,7 +31,6 @@ export const Hero = styled.div`
     }
 
     @media (max-width: 500px) {
-        background: #10e660;
         padding-left: 0;
     }
 
@@ -116,7 +115,7 @@ export const Video = styled.div`
         margin-bottom: 30px;
         background: #222;
         border-radius: 15px;
-        padding: 10px 40px;
+        padding: 10px 15px 2px 22px;
     }
 `;
 
@@ -286,12 +285,16 @@ export const Conteudo = styled.div`
         hr{
             background-color: black;
             height: 0.188rem;
-            width: 50%;
+            width: 70%;
             margin: 15px 0;
         }
 
         p{
             font-size: 1rem;
+        }
+
+        a {
+            align-self: center;
         }
 }
 `;
