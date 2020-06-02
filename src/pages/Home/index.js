@@ -8,6 +8,14 @@ import Comparativo from '../../components/Comparativo';
 
 export default function Main(){
 
+    function rolar() {
+        window.scroll({
+            top: 500,
+            left: 0,
+            behavior: 'smooth',
+          });
+    }
+
     return (
         <>
             <Hero>
@@ -16,7 +24,7 @@ export default function Main(){
                     <p>O futuro da telecomunicação móvel e da Sustentabilidade!</p>
                 </div>
 
-                <section>
+                <section onClick={() => rolar()}>
                     <IoIosArrowRoundDown size={45}/>
                     <article>
                         <span></span>

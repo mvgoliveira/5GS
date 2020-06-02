@@ -9,7 +9,7 @@ export const Comparacao = styled.div`
     justify-content: space-between;
 
     background: #fff;
-    color: #333;
+    color: #222;
 
     padding: 50px 0px;
 
@@ -60,6 +60,15 @@ export const Comparacao = styled.div`
         }
     }
 
+    @media (max-width: 867px) {
+        h2 {
+            font-size: 2.5rem;
+        }
+
+        h3 {
+            font-size: 1.2rem;
+        }
+    }
 `;
 
 export const Requisitos = styled.div`

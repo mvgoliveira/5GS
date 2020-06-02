@@ -61,6 +61,7 @@ export const Hero = styled.div`
         bottom: 3%;
         left: 50%;
         margin-left: -83px;
+        cursor: pointer;
 
         align-items: center;
 
@@ -152,7 +153,7 @@ export const Hero = styled.div`
     @media (max-width: 385px) {
         div {
             h1 {
-                font-size: 2.3rem;
+                font-size: 2.7rem;
                 font-weight: bold;
             }
 
@@ -177,9 +178,6 @@ export const Video = styled.div`
 
     padding: 50px 0px;
 
-
-    color: #10e660;
-
     h2 {
         text-align: center;
         font-size: 3rem;
@@ -187,9 +185,18 @@ export const Video = styled.div`
         font-family: 'Bebas Neue', cursive;
         letter-spacing: 3px;
         margin-bottom: 30px;
+        color: #00B765;
         background: #222;
         border-radius: 15px;
         padding: 10px 15px 2px 22px;
+    }
+
+    @media (max-width: 650px) {
+        h2 {
+            color: #222;
+            background: #00B765;
+            font-size: 2.5rem;
+        }
     }
 `;
 
