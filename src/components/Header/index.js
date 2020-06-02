@@ -11,7 +11,6 @@ export default function Header() {
 
     function abrir() {
         const change = open ? false : true;
-
         document.body.style.overflowY = open ? "scroll" : "hidden";
         setOpen(change);
     }
