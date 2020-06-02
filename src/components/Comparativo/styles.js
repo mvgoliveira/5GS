@@ -20,10 +20,6 @@ export const Comparacao = styled.div`
         font-weight: 100;
         font-family: 'Bebas Neue', cursive;
         letter-spacing: 0.188rem;
-
-        @media(max-width: 689px){
-            font-size: 2rem;
-        }
     }
 
     h3 {
@@ -33,10 +29,6 @@ export const Comparacao = styled.div`
         font-family: 'Bebas Neue', cursive;
         letter-spacing: 0.188rem;
         margin-bottom: 40px;
-
-        @media(max-width: 689px){
-            font-size: 1rem;
-        }
     }
 
     a {
