@@ -45,6 +45,7 @@ export const Hero = styled.div`
         width: 28rem;
         background: #222;
         padding-left: 10px;
+        padding-top: 10px;
 
         border-top-right-radius: 15px;
         border-top-left-radius: 15px;
