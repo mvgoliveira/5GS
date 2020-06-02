@@ -27,10 +27,11 @@ export const Hero = styled.div`
 
     div {
 
-        color: #222;
-        background: #4EB66A;
+        color: #fff;
+        background: #222;
 
         h1 {
+            color: #00B765;
             font-family: 'Bebas Neue', cursive;
             text-transform: uppercase;
             letter-spacing: 0.25rem;
@@ -50,8 +51,7 @@ export const Hero = styled.div`
             width: 28rem;
             height: 60px;
             padding-left: 10px;
-            font-weight: bold;
-
+            font-weight: 400;
         }
     }
 
@@ -114,7 +114,13 @@ export const Hero = styled.div`
         align-items: center;
 
         div {
+            color: #222;
+            background: #00B765;
+            padding: 20px;
+            margin-bottom: 100px;
+
             h1 {
+                color: #222;
                 text-align: center;
                 font-size: 4rem;
                 width: 80vw;
@@ -147,10 +153,12 @@ export const Hero = styled.div`
         div {
             h1 {
                 font-size: 2.3rem;
+                font-weight: bold;
             }
 
             p {
                 font-size: .8rem;
+                font-weight: bold;
             }
         }
     }
