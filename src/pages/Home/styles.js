@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 import { darken } from 'polished';
 
-import bg2 from '../../assets/imagens/background2.png';
-import hero from '../../assets/imagens/background.png';
+import bg2 from '../../assets/imagens/background2.svg';
+import hero from '../../assets/imagens/background.svg';
 
 import thumb from '../../assets/imagens/thumbnail.png';
 import thumb2 from '../../assets/imagens/thumbnail2.png';

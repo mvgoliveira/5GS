@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import {Container} from './styles';
-import InfoImg from '../../assets/imagens/InfoImg.jpg';
+import InfoImg from '../../assets/imagens/InfoImg.svg';
 
 export default function Info() {
 
