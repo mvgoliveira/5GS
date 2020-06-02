@@ -62,19 +62,22 @@ export const NavIcon = styled.div`
 `;
 
 export const Conteudo = styled.div`
-    align-self: center;
     display: flex;
-    z-index: -1;
     position: fixed;
+    z-index: -1;
+
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+
     transition: top 0.9s cubic-bezier(0.3, 0, 0, 1);
+    overflow-y: scroll;
 
     top: ${props => (props.open ? "0%" : "-100%")};
     background: #000;
     height: 100vh;
     width: 100vw;
     list-style: none;
-    align-items: center;
-    justify-content: center;
 
     ul {
         list-style: none;
@@ -95,5 +98,9 @@ export const Conteudo = styled.div`
                 }
             }
         }
+    }
+
+    @media(max-height: 420px) {
+        align-items: flex-start;
     }
 `;

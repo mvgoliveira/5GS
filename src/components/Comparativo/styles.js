@@ -2,17 +2,19 @@ import styled from 'styled-components';
 import { darken } from 'polished';
 
 export const Comparacao = styled.div`
-    background: #fff;
-    color: #333;
-    padding: 50px 0px;
-    max-width: 100vw;
-    box-sizing: border-box;
-
     display: flex;
     flex-direction: column;
-    align-items: center;
 
+    align-items: center;
     justify-content: space-between;
+
+    background: #fff;
+    color: #333;
+
+    padding: 50px 0px;
+
+    width: 100%;
+    box-sizing: border-box;
 
     h2 {
         text-align: center;
@@ -68,7 +70,7 @@ export const Requisitos = styled.div`
     min-height: 18.75rem;
 
     @media (max-width: 867px) {
-        overflow: auto;
+        overflow-x: scroll;
         width: 95vw;
     }
 

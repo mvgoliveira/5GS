@@ -31,7 +31,7 @@ export const Hero = styled.div`
     }
 
     @media (max-width: 500px) {
-
+        background: #10e660;
         padding-left: 0;
     }
 
@@ -94,13 +94,17 @@ export const Hero = styled.div`
 export const Video = styled.div`
     display: flex;
     flex-direction: column;
+    background: #222 url(${bg2}) left no-repeat;
+    background-size: 80vh;
+
     width: 100vw;
-    min-height: 95vh;
+    min-height: 80vh;
+
     align-items: center;
 
     padding: 50px 0px;
-    background: #222 url(${bg2}) left no-repeat;
-    background-size: 90vh;
+
+
     color: #10e660;
 
     h2 {
@@ -128,7 +132,7 @@ export const VideoGrid = styled.div`
     }
 
     @media (max-width: 1040px) {
-        overflow: auto;
+        overflow-x: scroll;
         width: 90vw;
 
         div {
