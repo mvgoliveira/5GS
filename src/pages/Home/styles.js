@@ -22,71 +22,136 @@ export const Hero = styled.div`
     padding-top: 40px;
     padding-left: 105px;
 
-    width: 100vw;
+    max-width: 100vw;
     height: 100vh;
+
+    div {
+
+        color: #222;
+        background: #4EB66A;
+
+        h1 {
+            font-family: 'Bebas Neue', cursive;
+            text-transform: uppercase;
+            letter-spacing: 0.25rem;
+            font-weight: 100;
+            font-size: 4.5rem;
+            text-align: start;
+            width: 28rem;
+            padding-left: 10px;
+            padding-top: 10px;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        p {
+            font-size: 1.25rem;
+            letter-spacing: 0.094rem;
+            text-align: start;
+            width: 28rem;
+            height: 60px;
+            padding-left: 10px;
+            font-weight: bold;
+
+        }
+    }
+
+    section {
+        display: flex;
+        position: absolute;
+        bottom: 3%;
+        left: 50%;
+        margin-left: -83px;
+
+        align-items: center;
+
+        background: #222;
+        padding-right: 15px;
+        padding: 10px 15px 10px 0;
+
+        svg {
+            position: relative;
+            animation: setaLoop 1s infinite;
+        }
+
+        article {
+
+            span {
+                font-weight: bold;
+                font-size: 0.9rem;
+
+                &::after {
+                    content:"Role para baixo";
+                }
+            }
+
+            p {
+                color: #999;
+                font-size: 0.7rem;
+
+                &::after {
+                    content:"Para descobrir mais";
+                }
+            }
+        }
+
+        @keyframes setaLoop {
+            from {
+                top: -3px;
+            }
+
+            50% {
+                top: 5px;
+            }
+
+            to {
+                top: -3px;
+            }
+        }
+    }
 
     @media (max-width: 650px) {
         padding-left: 0;
         align-items: center;
+
+        div {
+            h1 {
+                text-align: center;
+                font-size: 4rem;
+                width: 80vw;
+            }
+
+            p {
+                text-align: center;
+                width: 80vw;
+                font-size: 1rem;
+                height: 35px;
+            }
+        }
     }
 
     @media (max-width: 500px) {
         padding-left: 0;
-    }
 
-    h1 {
-        font-family: 'Bebas Neue', cursive;
-        color: #10e660;
-        text-transform: uppercase;
-        letter-spacing: 0.25rem;
-        font-weight: 300;
-        font-size: 4.5rem;
-        text-align: start;
-        width: 28rem;
-        background: #222;
-        padding-left: 10px;
-        padding-top: 10px;
+        div {
+            h1 {
+                font-size: 3rem;
+            }
 
-        border-top-right-radius: 15px;
-        border-top-left-radius: 15px;
-
-        @media (max-width: 650px) {
-            text-align: center;
-            font-size: 3rem;
-            width: 80vw;
-        }
-
-        @media (max-width: 500px) {
-            text-align: center;
-            font-size: 3rem;
-            width: 80vw;
+            p {
+                height: 40px;
+            }
         }
     }
 
-    p {
-        font-size: 1.25rem;
-        letter-spacing: 0.094rem;
-        text-align: start;
-        width: 28rem;
-        height: 60px;
-        padding-left: 10px;
-        background: #222;
+    @media (max-width: 385px) {
+        div {
+            h1 {
+                font-size: 2.3rem;
+            }
 
-        border-bottom-right-radius: 15px;
-        border-bottom-left-radius: 15px;
-
-        @media (max-width: 650px) {
-            text-align: center;
-            width: 80vw;
-            font-size: 0.8rem;
-            height: 35px;
-        }
-
-        @media (max-width: 500px) {
-            text-align: center;
-            width: 80vw;
-            font-size: 0.8rem;
-            height: 40px;
+            p {
+                font-size: .8rem;
+            }
         }
     }
 `;
@@ -97,7 +162,7 @@ export const Video = styled.div`
     background: #222 url(${bg2}) left no-repeat;
     background-size: 80vh;
 
-    width: 100vw;
+    max-width: 100vw;
     min-height: 80vh;
 
     align-items: center;
@@ -131,7 +196,7 @@ export const VideoGrid = styled.div`
         align-items: center;
     }
 
-    @media (max-width: 1040px) {
+    @media (max-width: 1108px) {
         overflow-x: scroll;
         width: 90vw;
 
@@ -224,6 +289,7 @@ export const Conteudo = styled.div`
     align-items: flex-start;
     justify-content: center;
     padding: 120px 110px;
+    max-width: 100vw;
 
 
         h2{

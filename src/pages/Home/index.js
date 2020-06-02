@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { AiFillPlayCircle } from 'react-icons/ai';
+import { IoIosArrowRoundDown } from 'react-icons/io';
 import {Hero, Video, Conteudo, VideoGrid} from './styles';
 
 import Comparativo from '../../components/Comparativo';
@@ -10,8 +11,18 @@ export default function Main(){
     return (
         <>
             <Hero>
-                <h1>5G Sustentável</h1>
-                <p>O futuro da telecomunicação móvel e da Sustentabilidade!</p>
+                <div>
+                    <h1>5G Sustentável</h1>
+                    <p>O futuro da telecomunicação móvel e da Sustentabilidade!</p>
+                </div>
+
+                <section>
+                    <IoIosArrowRoundDown size={45}/>
+                    <article>
+                        <span></span>
+                        <p></p>
+                    </article>
+                </section>
             </Hero>
 
             <Comparativo/>

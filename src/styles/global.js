@@ -6,7 +6,7 @@ export default createGlobalStyle `
       padding: 0;
       outline: 0;
       box-sizing: border-box;
-      max-width: 100%;
+      max-width: 100vw;
   }
 
   html, body, #root {
