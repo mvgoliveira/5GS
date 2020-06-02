@@ -48,19 +48,17 @@ export const NavIcon = styled.div`
             stroke-linecap:round;
         }
 
-        .top {
+        #top {
             stroke-dasharray: 40 139;
             stroke-dashoffset: ${props => (props.open ? "-98px" : "0")};
         }
 
-        .bottom {
+        #bottom {
             stroke-dasharray: 40 180;
             stroke-dashoffset: ${props => (props.open ? "-138px" : "0")};
         }
     }
-    .hamRotate.active {
-        transform: rotate(45deg);
-    }
+
 `;
 
 export const Conteudo = styled.div`
