@@ -14,7 +14,7 @@ export default function Main(){
 
     function rolar() {
         window.scroll({
-            top: 500,
+            top: 100,
             left: 0,
             behavior: 'smooth',
           });
