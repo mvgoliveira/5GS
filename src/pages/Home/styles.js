@@ -337,7 +337,7 @@ export const Conteudo = styled.div`
             padding: 10px 30px;
             align-self: flex-start;
 
-            margin-top: 40px;
+            margin: 40px 0;
 
             border-radius: 4px;
             background-color: #333;
