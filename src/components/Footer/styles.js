@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 export const Footer = styled.footer`
+    margin-top: -50px;
 
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;

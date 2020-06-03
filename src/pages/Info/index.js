@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import {Container} from './styles';
+import { Link } from 'react-router-dom';
 import InfoImg from '../../assets/imagens/InfoImg.svg';
 
 export default function Info() {
@@ -49,6 +50,8 @@ export default function Info() {
                 </p>
 
             </section>
+
+            <Link to="/">Volte para a primeira página</Link>
         </Container>
     );
 }

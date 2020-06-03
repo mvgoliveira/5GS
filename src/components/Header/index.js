@@ -44,9 +44,10 @@ export default function Header() {
                 <Conteudo open={open}>
                     <ul>
                         <li><Link to="/" onClick={() => abrir()}>Inicio</Link></li>
-                        <li><Link to="/informacoes" onClick={() => abrir()}>História</Link></li>
                         <li><Link to="/comparacao" onClick={() => abrir()}>Comparação</Link></li>
+                        <li><Link to="/informacoes" onClick={() => abrir()}>História</Link></li>
                         <li><Link to="/ods" onClick={() => abrir()}>ODS 9</Link></li>
+                        <li><Link to="/" onClick={() => abrir()}>Blog</Link></li>
                     </ul>
                 </Conteudo>
             </Headers>

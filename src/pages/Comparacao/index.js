@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import {Container, Card} from './styles.js';
+import { Link } from 'react-router-dom';
 import {FaTachometerAlt, FaStopwatch, FaMobileAlt, FaBatteryHalf} from 'react-icons/fa';
 
 export default function Comparacao() {
@@ -58,6 +59,8 @@ export default function Comparacao() {
                         </span>
                     </section>
                 </Card>
+
+                <Link to="/">Volte para a primeira página</Link>
             </Container>
         </>
     );

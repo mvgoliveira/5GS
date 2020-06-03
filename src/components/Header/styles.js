@@ -81,7 +81,7 @@ export const Conteudo = styled.div`
 
     ul {
         list-style: none;
-        font-size: 3rem;
+        font-size: 2.5rem;
         text-align: center;
 
         li {
@@ -100,7 +100,7 @@ export const Conteudo = styled.div`
         }
     }
 
-    @media(max-height: 420px) {
+    @media(max-height: 620px) {
         align-items: flex-start;
     }
 `;

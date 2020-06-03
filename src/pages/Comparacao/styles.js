@@ -25,6 +25,14 @@ export const Container = styled.div`
         letter-spacing: 0.063rem;
     }
 
+    a {
+        padding-top: 100px;
+        margin: auto;
+        &:hover {
+            text-decoration: underline 5px #1eee70;
+        }
+    }
+
 `;
 
 export const Card = styled.div`

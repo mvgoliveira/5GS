@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { AiFillPlayCircle } from 'react-icons/ai';
 import { IoIosArrowRoundDown } from 'react-icons/io';
@@ -7,6 +7,10 @@ import {Hero, Video, Conteudo, VideoGrid} from './styles';
 import Comparativo from '../../components/Comparativo';
 
 export default function Main(){
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, [])
 
     function rolar() {
         window.scroll({
