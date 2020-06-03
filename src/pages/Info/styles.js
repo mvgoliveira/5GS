@@ -54,8 +54,7 @@ export const Container = styled.div`
     }
 
     a {
-        padding-top: 30px;
-        margin: auto;
+        margin-top: 30px;
         &:hover {
             text-decoration: underline #1eee70;
         }

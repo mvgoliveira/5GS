@@ -226,13 +226,13 @@ export const VideoGrid = styled.div`
         align-items: center;
         justify-content: center;
         justify-items: center;
-        width: 21.5rem;
-        height: 12.5rem;
+        width: 21rem;
+        height: 12rem;
         margin: 0 10px 50px 10px;
 
         &:hover {
             transition: background 0.2s ease-in-out;
-            background: #fff;
+            background: #00B765;
         }
 
         svg {
@@ -246,7 +246,7 @@ export const VideoGrid = styled.div`
             grid-column: 1;
             grid-row: 1;
             filter: brightness(60%);
-            height: 12.5rem;
+            height: 12rem;
             width: 20.625rem;
         }
 

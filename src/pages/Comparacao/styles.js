@@ -26,8 +26,7 @@ export const Container = styled.div`
     }
 
     a {
-        padding-top: 100px;
-        margin: auto;
+        margin: 100px auto 0;
         &:hover {
             text-decoration: underline #1eee70;
         }
