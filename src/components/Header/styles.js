@@ -95,7 +95,6 @@ export const Conteudo = styled.div`
                 &:hover {
                     transition: color 0.1s ease-in;
                     color: #10e660;
-                    text-decoration: underline solid rgb(16, 230, 96)
                 }
             }
         }
