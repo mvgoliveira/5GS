@@ -6,6 +6,7 @@ import hero from '../../assets/imagens/background.svg';
 
 import thumb from '../../assets/imagens/thumbnail.png';
 import thumb2 from '../../assets/imagens/thumbnail2.png';
+import thumb3 from '../../assets/imagens/thumbnail3.png';
 
 export const Hero = styled.div`
     display: flex;
@@ -285,13 +286,13 @@ export const VideoGrid = styled.div`
         }
         &:nth-child(3) {
             article {
-                background: url(${thumb}) center no-repeat;
+                background: url(${thumb3}) center no-repeat;
                 background-size: contain;
             }
 
             p {
                 &::after {
-                    content: "5GS - Sem nome";
+                    content: "5GS - O final";
                 }
             }
         }
