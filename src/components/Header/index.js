@@ -47,7 +47,7 @@ export default function Header() {
                         <li><Link to="/comparacao" onClick={() => abrir()}>Comparação</Link></li>
                         <li><Link to="/informacoes" onClick={() => abrir()}>História</Link></li>
                         <li><Link to="/ods" onClick={() => abrir()}>ODS 9</Link></li>
-                        <li><Link to="/" onClick={() => abrir()}>Blog</Link></li>
+                        <li><a href="https://5gsblog.netlify.app" target="_blank" rel="noopener noreferrer">Blog</a></li>
                     </ul>
                 </Conteudo>
             </Headers>
