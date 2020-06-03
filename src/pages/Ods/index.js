@@ -1,9 +1,14 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Container } from './styles';
+import { Link } from 'react-router-dom';
 
 import InfoImg from '../../assets/imagens/ods9.png';
 
 export default function Ods(){
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, [])
 
     return (
         <>
@@ -12,39 +17,52 @@ export default function Ods(){
                     <h1>ODS 9</h1>
                     <img src={InfoImg} alt="Imagem ilustrativa 5GS"/>
 
+                    <h2>O que são os ODS?</h2>
+
                     <p>
-                        As Nações Unidas definiram os Objetivos de Desenvolvimento Sustentável (ODS) como parte de uma nova agenda de desenvolvimento sustentável que deve finalizar o trabalho dos ODM e não deixar ninguém para trás.
+                        Os Objetivos de Desenvolvimento Sustentável (ODS) são uma agenda mundial adotada durante a Cúpula das Nações Unidas sobre o Desenvolvimento Sustentável em setembro de 2015 composta por 17 objetivos e 169 metas a serem atingidos até 2030. São uma chamada universal para acabar com a pobreza, proteger o planeta e garantir que todas as pessoas desfrutem de paz e prosperidade.
                     </p>
 
                     <p>
-                    O Objetivo 9 Construir infraestruturas resilientes, promover a industrialização inclusiva e sustentável e fomentar a inovação, podemos destacar:
+                        Os 17 objetivos baseiam-se nos sucessos dos Objetivos de Desenvolvimento do Milênio e incluem novas áreas como mudanças climáticas, desigualdade econômica, inovação, consumo sustentável, paz e justiça, entre outras prioridades. São interconectados, ou seja, a chave para o sucesso de um objetivo envolve abordar questões associadas a outros.
+                    </p>
+
+                    <p>
+                        Os ODS trabalham com o espírito de parceria e pragmatismo para fazer hoje as escolhas corretas para melhorar a vida, de forma sustentável, das gerações futuras. Eles fornecem diretrizes e metas claras para que todos os países as adotem de acordo com suas próprias prioridades e com os desafios ambientais mundiais.
+                    </p>
+
+                    <h2>ODS 9 – Indústria, Inovação e Infraestrutura</h2>
+
+                    <p>
+                        O investimento em infraestrutura e inovação são impulsionadores cruciais do crescimento econômico e do desenvolvimento. Com mais da metade da população mundial vivendo em cidades, o transporte e as energias renováveis estão se tornando cada vez mais importantes, bem como as novas indústrias e tecnologias de informação e comunicação.
+                    </p>
+
+                    <p>
+                        O progresso tecnológico também é fundamental para encontrar soluções duradouras para os desafios econômicos e ambientais, como o fornecimento de novos empregos e a promoção da eficiência da energia. Promover as indústrias sustentáveis e investir na pesquisa científica e na inovação são formas importantes de facilitar o desenvolvimento sustentável.
+                    </p>
+
+                    <p>
+                        Mais de 4 bilhões de pessoas ainda não têm acesso à internet e 90% pertencem aos países em desenvolvimento. A ponte sobre esta divisão digital é crucial para assegurar a igualdade de acesso à informação e ao conhecimento, bem como promover a inovação e o empreendedorismo.
+                    </p>
+
+                    <p>
+                        <h2>Os objetivos da ODS 9 são:</h2>
 
                         <ul>
-                            <li>As redes 5G devem consumir até 90% menos energia que as redes 4G atuais;</li>
-                            <li>Os tempos de conexão entre aparelhos móveis devem ser inferiores a 5 ms (milissegundos), face à latência de 30 ms das redes 4G;</li>
-                            <li>O número de aparelhos conectados por área devem ser 50 a 100 vezes maior que o atual;</li>
-                            <li>Devem ser realizados aumentos drásticos na duração da bateria de dispositivos rádio receptores.</li>
+                            <li><span>9.1</span> Desenvolver infraestrutura de qualidade, confiável, sustentável e resiliente, incluindo infraestrutura regional e transfronteiriça, para apoiar o desenvolvimento econômico e o bem-estar humano, com foco no acesso equitativo e a preços acessíveis para todos</li>
+                            <li><span>9.2</span> Promover a industrialização inclusiva e sustentável e, até 2030, aumentar significativamente a participação da indústria no setor de emprego e no PIB, de acordo com as circunstâncias nacionais, e dobrar sua participação nos países menos desenvolvidos</li>
+                            <li><span>9.3</span> Aumentar o acesso das pequenas indústrias e outras empresas, particularmente em países em desenvolvimento, aos serviços financeiros, incluindo crédito acessível e sua integração em cadeias de valor e mercados</li>
+                            <li><span>9.4</span> Até 2030, modernizar a infraestrutura e reabilitar as indústrias para torná-las sustentáveis, com eficiência aumentada no uso de recursos e maior adoção de tecnologias e processos industriais limpos e ambientalmente corretos; com todos os países atuando de acordo com suas respectivas capacidades</li>
+                            <li><span>9.5</span> Fortalecer a pesquisa científica, melhorar as capacidades tecnológicas de setores industriais em todos os países, particularmente os países em desenvolvimento, inclusive, até 2030, incentivando a inovação e aumentando substancialmente o número de trabalhadores de pesquisa e desenvolvimento por milhão de pessoas e os gastos público e privado em pesquisa e desenvolvimento</li>
+                            <li><span>9.a</span> Facilitar o desenvolvimento de infraestrutura sustentável e resiliente em países em desenvolvimento, por meio de maior apoio financeiro, tecnológico e técnico aos países africanos, aos países menos desenvolvidos, aos países em desenvolvimento sem litoral e aos pequenos Estados insulares em desenvolvimento</li>
+                            <li><span>9.b</span> Apoiar o desenvolvimento tecnológico, a pesquisa e a inovação nacionais nos países em desenvolvimento, inclusive garantindo um ambiente político propício para, entre outras coisas, a diversificação industrial e a agregação de valor às commodities</li>
+                            <li><span>9.c</span> Aumentar significativamente o acesso às tecnologias de informação e comunicação e se empenhar para oferecer acesso universal e a preços acessíveis à internet nos países menos desenvolvidos, até 2020</li>
                         </ul>
-
-                    </p>
-
-                    <p>
-                        Após a instalação da infraestrutura das redes 5G, a redução do consumo de energia poderá diminuir os custos futuros, além de torná-la mais ecológica. O tempo de latência reduzido, por sua vez, possibilitará a comunicação entre veículos autônomos, permitirá o desenvolvimento de sistemas de segurança que evitem acidentes automobilísticos, além de possibilitar a realização de cirurgias remotas por meio de robôs.
-                    </p>
-
-                    <p>
-                        O aumento do número de aparelhos conectados por área possibilitará uma enorme ampliação da tendência mundial da “internet das coisas”. Sistemas de iluminação pública e residencial, smartphones, smartwatches, eletrodomésticos, dispositivos de monitoramento, sensores de presença, frequencímetros cardíacos, centrais de segurança, guichês de supermercados ou estacionamentos, caixas de supermercados, sensores meteorológicos e muitos outros dispositivos poderão conectar-se mutuamente por meio do uso da quinta geração das redes móveis. Com isso, haverá inúmeras possibilidades, cada vez mais inteligentes e conectadas, para residências, ruas, hospitais, comércios e indústrias.
-                    </p>
-
-                    <p>
-                        O pequeno tempo de latência possibilitado pelas redes 5G permitirá que o sistema de freios de um veículo comunique-se rapidamente aos smartphones ou smartwatchs dos pedestres, evitando acidentes quando, por exemplo, houver grandes aproximações entre eles.
-                    </p>
-
-                    <p>
-                        Toda a infraestrutura para a utilização da rede 5G não sairá barata, no entanto, não se sabe ao certo de quanto deverá ser o investimento para os usuários finais. Estima-se que, na Europa, os custos de instalação da nova infraestrutura de antenas somarão entre 300 e 500 bilhões de euros, um investimento muito grande para potencialidades ainda maiores.
                     </p>
 
                 </section>
+
+                <Link to="/">Volte para a primeira página</Link>
             </Container>
         </>
     );

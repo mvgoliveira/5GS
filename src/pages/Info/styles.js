@@ -2,6 +2,8 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
     padding: 130px 50px;
     max-width: 100vw;
@@ -22,6 +24,7 @@ export const Container = styled.div`
 
     img {
         margin-bottom: 40px;
+        width: 100%;
     }
 
     p {
@@ -47,6 +50,14 @@ export const Container = styled.div`
             &:last-child {
                 margin-bottom: 0px;
             }
+        }
+    }
+
+    a {
+        padding-top: 30px;
+        margin: auto;
+        &:hover {
+            text-decoration: underline #1eee70;
         }
     }
 

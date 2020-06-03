@@ -29,7 +29,7 @@ export const Container = styled.div`
         padding-top: 100px;
         margin: auto;
         &:hover {
-            text-decoration: underline 5px #1eee70;
+            text-decoration: underline #1eee70;
         }
     }
 
