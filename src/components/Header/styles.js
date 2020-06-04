@@ -37,7 +37,6 @@ export const NavIcon = styled.div`
         -webkit-user-select: none;
         -ms-user-select: none;
         user-select: none;
-
         transform: ${props => (props.open ? "rotate(45deg)" : "0")};
 
         .line {

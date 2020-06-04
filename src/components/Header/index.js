@@ -7,7 +7,7 @@ import logo from '../../assets/imagens/logo.png';
 
 export default function Header() {
 
-    const [open, setOpen] = useState (false);
+    const [ open, setOpen ] = useState (false);
 
     function abrir() {
         const change = open ? false : true;
