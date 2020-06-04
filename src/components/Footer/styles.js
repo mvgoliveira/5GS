@@ -28,7 +28,6 @@ export const Footer = styled.footer`
         align-items: center;
         justify-content: center;
     }
-
 `;
 
 export const Info = styled.div`

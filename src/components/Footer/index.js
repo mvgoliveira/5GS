@@ -23,7 +23,7 @@ export default function FooterPage() {
                     <a href="/" title="Abre a página LEGAL">Legal</a>
                 </Info>
 
-                <section title="Volta ao topo"><FaCaretUp size={25} onClick={top}/></section>
+                <section title="Volta ao topo"> <FaCaretUp size={25} onClick={top}/ ></section>
 
                 <RedesSociais>
                     <a href="https:\\facebook.com" target="_blank" rel="noopener noreferrer" title="Abre o facebook da 5GS"><FaFacebook size={25}/></a>
