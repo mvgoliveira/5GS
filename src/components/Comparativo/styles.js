@@ -119,7 +119,6 @@ export const Requisitos = styled.div`
                 }
             }
 
-
         }
 
         &:nth-child(4){

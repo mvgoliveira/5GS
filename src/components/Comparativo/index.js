@@ -32,6 +32,7 @@ export default function ComparativoGrande(){
             </Requisitos>
 
             <Link to="/comparacao"></Link>
+
         </Comparacao>
 
     );
