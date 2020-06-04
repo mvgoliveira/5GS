@@ -1,2 +1,2 @@
 # 5GS
- Projeto PCA para deploy no Netlify
+ Site desenvolvido para o PCA de aplicações web
