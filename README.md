@@ -8,7 +8,7 @@ Site e blog criados com o intuito de informar em como o 5G pode ser usado de for
 O Site foi desenvolvido em ReactJs e o blog foi desenvolvido em Gatsby.
  
  
-Site: https://5gs.netlify.app
+Site: https://5gs.netlify.app <br/>
 Blog: https://5gsblog.netlify.app
 
 ### **📝 Licença**
